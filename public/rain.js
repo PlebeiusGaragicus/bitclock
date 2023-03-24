@@ -12,7 +12,8 @@ const nums = '0123456789';
 
 const alphabet = katakana + latin + nums;
 
-const fontSize = 16;
+// const fontSize = 16;
+const fontSize = 10;
 const columns = canvas.width / fontSize;
 
 const rainDrops = [];
@@ -25,8 +26,8 @@ const draw = () => {
     context.fillStyle = 'rgba(0, 0, 0, 0.05)';
     context.fillRect(0, 0, canvas.width, canvas.height);
 
-    // context.fillStyle = '#FFA500';
-    context.fillStyle = '#0F0';
+    context.fillStyle = '#FFA500'; // ORANGE
+    // context.fillStyle = '#0F0';
     context.font = fontSize + 'px monospace';
 
     for (let i = 0; i < rainDrops.length; i++) {
