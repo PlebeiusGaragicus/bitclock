@@ -1,0 +1,26 @@
+{
+  "name": "god-damn-i-didn-t-want-to-do-this",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PlebeiusGaragicus/god-damn-i-didn-t-want-to-do-this.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlebeiusGaragicus/god-damn-i-didn-t-want-to-do-this/issues"
+  },
+  "homepage": "https://github.com/PlebeiusGaragicus/god-damn-i-didn-t-want-to-do-this#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
