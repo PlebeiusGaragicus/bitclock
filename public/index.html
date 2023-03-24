@@ -1,3 +1,7 @@
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,25 +9,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitcoin Block Height</title>
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
     <style>
+        html {
+            background: black;
+            height: 100%;
+            overflow: hidden;
+        }
+
         body {
-            background-color: black;
+            /* background-color: black; */
             color: orange;
             font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #bitrain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            /* Set the canvas below the HTML elements */
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            /* Set the HTML elements above the canvas */
         }
 
         .block-height {
-            font-size: 50px;
+            font-size: 100px;
+            /* text-shadow: 0 0 10px #000000; */
+            -webkit-text-stroke: 4px black;
+            /* Define the stroke width and color */
+            text-stroke: 4px black;
+            /* For future compatibility without prefix */
         }
     </style>
-    <script src="index.js"></script>
 </head>
 
 <body>
-    <h1>Current Bitcoin Block Height:</h1>
-    <div class="block-height" id="blockHeight">Loading...</div>
+    <canvas id="bitrain"></canvas>
+    <div class="content">
+        <!-- <h1>Current Bitcoin Block Height:</h1> -->
+        <div class="block-height" id="blockHeight">Loading...</div>
+    </div>
     <!-- <p id="blockHeight"></p> -->
+
+    <script src="index.js"></script>
+    <script src="rain.js"></script>
 </body>
 
 </html>
