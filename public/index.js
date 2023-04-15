@@ -1,4 +1,6 @@
-const SERVER_URL = 'http://127.0.0.1:3000';
+// const SERVER_URL = 'http://127.0.0.1:3000';
+// const SERVER_URL = `http://${P_ADDRESS_OR_HOSTNAME}:3000`;
+const SERVER_URL = `${location.protocol}//${location.hostname}:${location.port}`;
 
 async function getBlockCount() {
     const response = await fetch(`${SERVER_URL}/block-height`);
