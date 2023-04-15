@@ -24,6 +24,6 @@ async function updateBlockHeight() {
     }
 }
 
-// Update block height on page load and every 10 seconds
+
 updateBlockHeight();
-setInterval(updateBlockHeight, 10000);
+setInterval(updateBlockHeight, 1000 * 30); // 30 seconds
