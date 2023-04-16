@@ -1,5 +1,5 @@
 {
-  "name": "god-damn-i-didn-t-want-to-do-this",
+  "name": "bitclock",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PlebeiusGaragicus/god-damn-i-didn-t-want-to-do-this.git"
+    "url": "git+https://github.com/PlebeiusGaragicus/bitclock.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PlebeiusGaragicus/god-damn-i-didn-t-want-to-do-this/issues"
+    "url": "https://github.com/PlebeiusGaragicus/bitclock/issues"
   },
-  "homepage": "https://github.com/PlebeiusGaragicus/god-damn-i-didn-t-want-to-do-this#readme",
+  "homepage": "https://github.com/PlebeiusGaragicus/bitclock#readme",
   "dependencies": {
     "canvas": "^2.11.0",
     "cors": "^2.8.5",
